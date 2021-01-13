@@ -1,0 +1,27 @@
+{
+    "name": "octoberfa/calendars",
+    "type": "october-plugin",
+    "description": "OctoberCms Date in other calendar systems",
+    "keywords": [
+        "october",
+        "cms",
+        "calendar",
+        "hijri",
+        "jalali",
+        "shamsi",
+        "plugin",
+        "backend"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sajjad Servatjoo",
+            "email": "sajjad.servatjoo@gmail.com",
+            "role": "Co-founder"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0"
+    }
+}

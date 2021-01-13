@@ -1,0 +1,97 @@
+fields:
+    calendars_type:
+        label: octoberfa.calendars::lang.setting.calendar_type
+        type: dropdown
+        default: gregorian
+        options:
+            coptic: Coptic
+            ethiopian: Ethiopian
+            gregorian: Gregorian
+            hebrew: Hebrew
+            islamic: Islamic
+            ummalqura: islamic-umalqura
+            persian: Persian
+            taiwan: Taiwan
+            thai: Buddhist
+        span: auto
+    calendars_language:
+        label: octoberfa.calendars::lang.setting.calendar_language
+        type: dropdown
+        default: en
+        options:
+            af: Afrikaans
+            am: አማርኛ (Amharic)
+            ar: ‫العربية‬ (Arabic) *
+            ar-DZ: ‫العربية‬ (Arabic/Algeria)
+            ar-EG: ‫مصر/العربية‬ (Arabic/Egypt)
+            az: Azərbaycan dili (Azerbaijani)
+            id: Bahasa Indonesia (Indonesian)
+            ms: Bahasa Melayu (Malaysian)
+            nl-BE: Belgisch-Nederlands (Dutch/Belgian)
+            bs: Bosanski (Bosnian)
+            bg: български език (Bulgarian)
+            ca: Català (Catalan)
+            cs: Čeština (Czech)
+            da: Dansk (Danish)
+            de: Deutsch (German)
+            el: Ελληνικά (Greek)
+            en-AU: English/Australia
+            en-NZ: English/New Zealand
+            en-GB: English/UK
+            es: Español (Spanish)
+            es-AR: Español/Argentina (Spanish/Argentina)
+            es-PE: Español/Perú (Spanish/Peru)
+            eo: Esperanto
+            et: eesti keel (Estonian)
+            eu: Euskara (Basque)
+            fo: Føroyskt (Faroese)
+            fr: Français (French)
+            fr-CH: Français de Suisse (French/Swiss)
+            gl: Galego (Galician)
+            sq: Gjuha shqipe (Albanian)
+            gu: ગુજરાતી (Gujarati) *
+            ko: 한국어 (Korean)
+            he: ‫עברית‬ (Hebrew)
+            hi-IN: हिन्दी (Hindi/India)
+            hr: Hrvatski jezik (Croatian)
+            hy: Հայերեն (Armenian)
+            is: Íslenska (Icelandic)
+            it: Italiano (Italian)
+            ka: ქართული ენა (Georgian)
+            km: ភាសាខ្មែរ (Khmer)
+            lv: Latviešu Valoda (Latvian)
+            lt: lietuvių kalba (Lithuanian)
+            mk: македонски јазик (Macedonian)
+            hu: Magyar (Hungarian)
+            ml: മലയാളം (Malayam)
+            mt: Malti (Maltese)
+            me: Црногорски језик (Montenegrin)
+            me-ME: Crnogorski jezik (Montenegrin)
+            nl: Nederlands (Dutch)
+            ja: 日本語 (Japanese) *
+            no: Norsk (Norwegian)
+            th: ภาษาไทย (Thai)
+            pl: Polski (Polish)
+            fa: ‫فارسی‬ (Farsi/Persian) *
+            pt-BR: Português (Portuguese/Brazilian)
+            ro: Română (Romanian)
+            rm: Rumantsch (Romansh)
+            ru: Русский (Russian)
+            de-CH: Schweizerdeutsch (Swiss-German)
+            sk: Slovenčina (Slovak)
+            sl: Slovenski Jezik (Slovenian)
+            sr: српски језик (Serbian)
+            sr-SR: srpski jezik (Serbian)
+            fi: suomi (Finnish)
+            sv: Svenska (Swedish)
+            ta: தமிழ் (Tamil)
+            tt: татар теле (Tatar)
+            te: తెలుగు (Telugu)
+            vi: Tiếng Việt (Vietnamese)
+            tr: Türkçe (Turkish)
+            uk: Українська мова (Ukrainian)
+            ur: ‫اُردوُ‬ (Urdu) *
+            zh-HK: 繁體中文 (Chinese Hong Kong) *
+            zh-CN: 简体中文 (Chinese Simplified) *
+            zh-TW: 繁體中文 (Chinese Traditional) *
+        span: auto
