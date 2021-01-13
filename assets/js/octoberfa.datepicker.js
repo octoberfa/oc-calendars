@@ -278,22 +278,6 @@
 
     DatePicker.prototype.isTimeTwelveHour = function () {
         return false;
-
-        // Disabled for now: The analog clock design is pretty good
-        // at representing time regardless of the format. If we want
-        // to enable this, there should be some way to disable it
-        // again via the form field options.
-
-        // var momentObj = moment()
-
-        // if (this.locale) {
-        //     momentObj = momentObj.locale(this.locale)
-        // }
-
-        // return momentObj
-        //     .localeData()
-        //     .longDateFormat('LT')
-        //     .indexOf('A') !== -1;
     };
 
     //
@@ -314,10 +298,6 @@
 
     DatePicker.prototype.getMomentLoadValue = function (value, format) {
         var momentObj = moment.tz(value, this.appTimezone);
-
-        // if (this.locale) {
-        //     momentObj = momentObj.locale(this.locale);
-        // }
         momentObj = momentObj.locale("en");
         momentObj = momentObj.tz(this.timezone);
 
@@ -334,7 +314,9 @@
         this.calendarLang = $('meta[name="backend-calendar-language"]').attr(
             "content"
         );
-
+        if (this.locale === "en") {
+            this.locale = "en-UK";
+        }
         if (!this.calendarType) {
             this.calendarType = "gregorian";
         }

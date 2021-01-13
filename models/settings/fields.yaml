@@ -4,6 +4,7 @@ fields:
         type: dropdown
         default: gregorian
         options:
+            thai: Buddhist
             coptic: Coptic
             ethiopian: Ethiopian
             gregorian: Gregorian
@@ -12,7 +13,7 @@ fields:
             ummalqura: islamic-umalqura
             persian: Persian
             taiwan: Taiwan
-            thai: Buddhist
+
         span: auto
     calendars_language:
         label: octoberfa.calendars::lang.setting.calendar_language
@@ -35,6 +36,7 @@ fields:
             da: Dansk (Danish)
             de: Deutsch (German)
             el: Ελληνικά (Greek)
+            en: English
             en-AU: English/Australia
             en-NZ: English/New Zealand
             en-GB: English/UK
